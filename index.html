@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="applybox"><h1>JOB APPLICATION</h1>
+          <form action="">
+            <div class="formcont">
+             <div class="formcontrol">
+                <label for="1name">First Name</label>
+                <input id="1name" name="First Name" placeholder="enter"/>
+             </div>
+             <div class="formcontrol">
+                <label for="2name">Last Name</label>
+                <input id="2name" name="Last Name" placeholder="enter"/>
+             </div>
+             <div class="formcontrol">
+                <label for="Email">Email ID</label>
+                <input type="email" id="Email" name="Email ID" placeholder="enter"/>
+             </div>
+             <div class="formcontrol">
+                <label for="jobrole">Job Roles</label>
+                <select id="jobrole" name="JOB ROLE"> 
+                    <option value="">Select Job Role</option>
+                    <option value="frontend">Frontend Devloper</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="full stack">Full STack Developer</option>
+                    <option value="ui/ux">UI UX designer</option>
+                 </select>
+             </div>
+             <div class="textareacontrol">
+                <label for="Add.">Address</label>
+                <textarea  id="Add." name="Add." rows="4" cols="50" placeholder="enter"></textarea>
+             </div>
+             <div class="formcontrol">
+                <label for="city">City Name</label>
+                <input id="city" name="city" placeholder="enter"/>
+             </div>
+             <div class="formcontrol">
+                <label for="pin">PIN CODE</label>
+                <input type="number" id="pin" name="pin" placeholder="enter"/>
+             </div>
+             <div class="formcontrol">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" placeholder="enter"/>
+             </div>
+             <div class="formcontrol">
+                <label for="upload">Upload Your CV</label>
+                <input type="file" id="upload" name="upload" placeholder="enter"/>
+             </div>
+            </div>
+            <div class="buttoncont">
+                <button type="submit">Apply Now </button>
+            </div>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
